@@ -1,0 +1,30 @@
+{
+  "name": "excercises-pf",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha  --parallel --reporter spec",
+    "purge": "node utils/purgeSolutions.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.ti.howest.be:TI/2021-2022/s1/programming-fundamentals/exercise-sources.git"
+  },
+  "author": "Mattias De Wael",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "mocha": "^10.0.0"
+  }
+}
